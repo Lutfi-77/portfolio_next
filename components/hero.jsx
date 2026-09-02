@@ -35,10 +35,8 @@ const Hero = () => {
               <span className="text-gray-400"> Web Developer</span>
             </motion.h1>
             <motion.p variants={items}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus, tempora quasi aliquid ex facere, corrupti suscipit
-              animi at adipisci ut sit eaque voluptatibus similique. Impedit,
-              eius. Suscipit placeat laudantium consequatur.
+              A dedicated Web Developer passionate about crafting intuitive &
+              scalable digital experiences.
             </motion.p>
             <div className="social flex gap-3 pt-5">
               <motion.div
