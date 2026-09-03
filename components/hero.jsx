@@ -27,7 +27,7 @@ const Hero = () => {
             className="profile-text m-auto"
           >
             <motion.h3 variants={items}>
-              <span className="bg-green-600 w-3 h-3 mr-2 inline-block rounded-full"></span>
+              <span className="bg-green-600 w-3 h-3 mr-2 inline-block rounded-full animate-ping"></span>
               Available for hire
             </motion.h3>
             <motion.h1 variants={items} className="text-4xl">
@@ -60,7 +60,7 @@ const Hero = () => {
             </div>
           </motion.div>
           <div className="image mt-auto">
-            <div className="ml-auto w-1/2 rounded-2xl p-[2px] bg-gradient-to-bl from-green-600 via-transparent to-transparent overflow-hidden">
+            <div className="mx-auto w-2/3 mt-5 md:w-1/2 md:ml-auto md:mr-0 rounded-2xl p-[2px] bg-gradient-to-bl from-green-600 via-transparent to-transparent overflow-hidden">
               <div className="rounded-2xl overflow-hidden bg-white dark:bg-background">
                 <Image
                   src={assets.profile}
