@@ -9,7 +9,13 @@ const MyWorks = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const categories = ['All', 'Catalogue', 'POS APP', 'Company Profile'];
+  const categories = [
+    'All',
+    'E-Commerce',
+    'Catalogue',
+    'POS APP',
+    'Company Profile',
+  ];
 
   const filteredProjects =
     activeFilter === 'All'
