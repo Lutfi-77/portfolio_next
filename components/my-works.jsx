@@ -9,7 +9,7 @@ const MyWorks = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const categories = ['All', 'E-Commerce', 'POS APP', 'Company Profile'];
+  const categories = ['All', 'Catalogue', 'POS APP', 'Company Profile'];
 
   const filteredProjects =
     activeFilter === 'All'
@@ -40,7 +40,7 @@ const MyWorks = () => {
         <div className="w-16 h-1 bg-gradient-to-r from-transparent via-green-500 to-transparent mx-auto rounded-full mt-3 mb-4" />
         <p className="text-sm md:text-base text-foreground/70 max-w-xl mx-auto">
           Koleksi proyek website nyata yang pernah saya kembangkan, mulai dari
-          aplikasi kasir (POS), platform e-commerce, hingga company profile.
+          aplikasi kasir (POS), hingga company profile.
         </p>
       </motion.div>
 

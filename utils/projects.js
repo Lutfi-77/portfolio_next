@@ -68,9 +68,9 @@ export const projects = [
   {
     id: 5,
     title: 'NSSkin',
-    category: 'E-Commerce',
+    category: 'Catalogue',
     description:
-      'Platform penjualan produk kecantikan yang juga menampilkan informasi klinik kecantikan terkait bagi pengguna yang ingin berkonsultasi. Membangun tampilan frontend serta sistem CRUD untuk data produk dan data klinik.',
+      'Platform katalog produk kecantikan yang juga menampilkan informasi klinik kecantikan terkait bagi pengguna yang ingin berkonsultasi. Membangun tampilan frontend serta sistem CRUD untuk data produk dan data klinik.',
     technologies: [
       'HTML',
       'CSS',
