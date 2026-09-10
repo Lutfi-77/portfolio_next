@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${fontSans.variable} ${geistMono.variable} antialiased`}
       >
-        <SideNav />
+        {/* <SideNav /> */}
         {children}
       </body>
     </html>

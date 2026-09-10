@@ -38,7 +38,7 @@ const Hero = () => {
               A dedicated Web Developer passionate about crafting intuitive &
               scalable digital experiences.
             </motion.p>
-            <div className="social flex gap-3 pt-5">
+            {/* <div className="social flex gap-3 pt-5">
               <motion.div
                 variants={items}
                 className="py-1 px-3 rounded-full bg-card shadow-card hover:shadow-hover duration-300 transition-shadow ease-in-out"
@@ -57,7 +57,7 @@ const Hero = () => {
               >
                 Instagram
               </motion.div>
-            </div>
+            </div> */}
           </motion.div>
           <div className="image mt-auto">
             <div className="mx-auto w-2/3 mt-5 md:w-1/2 md:ml-auto md:mr-0 rounded-2xl p-[2px] bg-gradient-to-bl from-green-600 via-transparent to-transparent overflow-hidden">
