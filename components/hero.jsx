@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="hero pb-28">
+      <section id="hero" className="hero pb-28">
         <div className="grid grid-cols-1 md:grid-cols-2 pt-5 md:mt-36">
           <motion.div
             variants={container}
